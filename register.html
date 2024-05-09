@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRANG CHỦ</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="middle-content">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="header-left d-flex align-items-center">
+                    <div class="action-menu-responsive">
+                        <div class="action nav-togger">
+                            <i class="fa-solid fa-bars fs-21"></i>
+                        </div>
+                    </div>
+                    <a href="./" class="logo">
+                        <img src="https://nhom6is.github.io/logo.png" alt="Elise - Exclusive" width="100"
+                          height="20" />
+                      </a>
+                </div>
+                <div class="header-center d-flex">
+                    <div class="search-form">
+                        <div class="form-search d-flex align-items-center">
+                            <form action="" class="form minisearch" id="search_mini_form">
+                                <span class="title-search">Tìm Kiếm</span>
+                                <input id="search" class="input-text" type="text" maxlength="128" />
+                                <button type="submit" title="Tìm Kiếm" class="button" disabled="">
+                                    <i class="fa-solid fa-magnifying-glass fs-21"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-right d-flex flex-end align-items-center">
+                    <div class="header-phone" data-role="stringee-area">
+                        <a href="./groups.html" style="color: #111; text-decoration: none;">
+                            <div class="stringee-call-action d-flex align-items-center">
+                                <i class="fa-solid fa-user-group  fs-21 mr-10"></i><span>Nhóm</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="header-account ">
+                        <div class=" is-canvas">
+                            <span class="label"><i class="fa-regular fa-user fs-21 mr-10"></i></i>Tài Khoản</span>
+                        </div>
+                    </div>
+
+                    <div class="cart">
+                        <i class="fa-solid fa-bag-shopping fs-21"></i>
+                    </div>
+                    <div class="follow">
+                        <i class="fa-regular fa-heart fs-21 hv"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="header-wrapper-end">
+        <div class="header-canvas-menu megamenu-content" style="padding-top: 100px;">
+            <div class="close-menu"><i class="fa-solid fa-xmark"></i></div>
+            <div id="main-Menucontent" class="item-pane menu-list">
+                <div class="menu-logo"><a href="https://elise.vn/"><img
+                            src="https://elise.vn/media/logo/default/logo_color.png" alt="menu logo"></a>
+                </div>
+                <div class="container-menu">
+                    <ul class="list-menu">
+                        <li class="item-menu">Bộ sưu tập</li>
+                        <li class="item-menu">Thời trang nữ</li>
+                        <li class="item-menu">Phụ kiện</li>
+                        <li class="item-menu">Sale up to 50%</li>
+                        <li class="item-menu">Elise store</li>
+                        <li class="item-menu">Thẻ thành viên</li>
+                        <li class="item-menu">Hệ thộng cửa hàng</li>
+                        <li class="item-menu">Thông tin</li>
+                        <li class="item-menu">ESG Activities</li>
+                        <li class="item-menu">May đo đồng phục</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="canvas canvas-customer-login">
+            <div class="close"><i class="fa-solid fa-xmark"></i></i></div>
+            <div class="canvas-content-wrapper">
+                <div class="title uppercase"><span>Đăng nhập</span></div>
+                <div class="create-account">
+                    <span>Bạn chưa có tài khoản?</span><a href="register.html" class="underline">Tạo tài khoản</a>
+                </div>
+            </div>
+            <form class="formLogin form-login myaccount-form-login" action="" method="post" id="form-login">
+                <div class="field-control email required">
+                    <input name="email" placeholder="Địa chỉ email hoặc số điện thoại của bạn" value=""
+                        autocomplete="off" id="email" type="text" class="input-text" title="Email">
+                    <div class="form-message"></div>
+                </div>
+                <div class="field-control password required">
+                    <input name="password" placeholder="Mật khẩu" type="password" autocomplete="off" class="input-text"
+                        id="password" title="Mật khẩu">
+                    <div class="form-message"></div>
+                </div>
+                <div class=" action remind">
+                    <a href="" class="underline">Quên mật khẩu?</a>
+                </div>
+                <div class="field choice mgs-gdpr-checkbox d-flex flex-start" style="margin-top: 10px;">
+                    <input type="checkbox" style="width: 30px;margin-top: 5px;">
+                    <label for="accept_gdpr" class="label"><span>Tôi đồng ý Điều kiện - Điều khoản &amp; Chính sách bảo
+                            mật của
+                            Elise.</span></label>
+                </div>
+                <div class="actions-toolbar">
+                    <button type="submit" class="action btn-login uppercase" name="send" id="send2">
+                        <span>Đăng nhập</span></button>
+                </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="header-overlay"></div>
+    </section>
+    <form action="" id="form-1" class="form-create-account form">
+        <h3 class="title uppercase">
+            Thông tin cá nhân
+        </h3>
+        <div style="margin: 54px 0;">
+            <div class="row-input">
+                <div class="control">
+                    <input id="email" name="email" placeholder="Email" class="input-text">
+                    <div class="action-no-email">Tôi không có địa chỉ email</div>
+                    <span class="form-message"></span>
+                </div>
+            </div>
+            <div class="row-input">
+                <div class="control ">
+                    <input id="password" name="password" type="password" placeholder="Mật khẩu" class="input-text">
+                    <span class="form-message"></span>
+                </div>
+                <div class="control ">
+                    <input id="password_confirmation" name="password_confirmation" type="password"
+                        placeholder="Nhập lại mật khẩu" class="input-text">
+                    <span class="form-message"></span>
+                </div>
+            </div>
+            <div class="row-input">
+                <div class="control ">
+                    <input id="name" name="name" type="text" placeholder="Tên" class="input-text">
+                    <span class="form-message"></span>
+                </div>
+                <div class="control ">
+                    <input id="preName" name="prevName" type="text" placeholder="Họ" class="input-text">
+                    <span class="form-message"></span>
+                </div>
+            </div>
+
+            <div class="row-input">
+                <div class="control ">
+                    <input id="city" name="city" type="text" placeholder="Vui lòng chọn thành phố của bạn"
+                        class="input-text">
+                    <span class="form-message"></span>
+                </div>
+                <div class="control ">
+                    <input id="city2" name="city2" type="text" placeholder="Vui lòng chọn quận/huyện của bạn"
+                        class="input-text">
+                    <span class="form-message"></span>
+
+                </div>
+            </div>
+
+            <div class="row-input">
+                <div class="control ">
+                    <input id="address" name="address" type="text" placeholder="Địa chỉ" class="input-text">
+                    <span class="form-message"></span>
+
+                </div>
+                <div class="control ">
+                    <input id="note" name="note" type="text" placeholder="Ghi chú" class="input-text">
+                    <span class="form-message"></span>
+
+                </div>
+            </div>
+
+            <div class="row-input">
+                <div class="control ">
+                    <label for="" class="label">
+                        <span>Quốc gia</span>
+                    </label>
+                    <input type="text" value="Việt Nam" disabled class="input-text">
+                </div>
+                <div class="control ">
+                    <label for="" class="label">
+                        <span>Số điện thoại</span>
+                    </label>
+                    <div class="">
+                        <span style="color:#333">+84</span>
+                        <input id="phoneNumber" name="phoneNumber" type="text" placeholder="Điện thoại"
+                            class="input-text ms-6" style="margin-left: 32px; max-width:418px;">
+                        <div>
+                            <span class="form-message"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="group-checkbox">
+            <div class="myemail-check">
+                <input type="checkbox">
+                <span>Nhận tin tức và khuyến mại mới nhất từ Elise qua email</span>
+            </div>
+            <div class="privacy-statement-check">
+                <input type="checkbox">
+                <span>Tôi đồng ý </span><a href=""> Điều kiện - Điều khoản & Chính sách bảo mật của Elise</a>
+            </div>
+        </div>
+        <div class="actions-toolbar">
+            <button type="submit" class=" uppercase" title="Tạo tài khoản">
+                <li><a href="https://nhom6is.github.io/index.html">Tạo tài khoản</a></li>
+            </button>
+        </div>
+    </form>
+   
+</body>
+<script src="./app.js"></script>
+<script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+        // Mong muốn của chúng ta
+        Validator({
+            form: '#form-1',
+            formGroupSelector: '.control',
+            errorSelector: '.form-message',
+            rules: [
+                Validator.isRequired('#name', 'Vui lòng nhập tên của bạn'),
+                Validator.isRequired('#prevName', 'Vui lòng tên họ của bạn'),
+                Validator.isRequired('#city', 'Vui lòng nhập thành phố của bạn'),
+                Validator.isRequired('#city2', 'Vui lòng nhập quận/huyện của bạn'),
+                Validator.isRequired('#address', 'Vui lòng nhập địa chỉ của bạn'),
+                Validator.isRequired('#note', 'Vui lòng nhập ghi chú của bạn'),
+                Validator.isRequired('#phoneNumber', 'Vui lòng nhập số điện thoại của bạn'),
+                Validator.isEmail('#email'),
+                Validator.minLength('#password', 6),
+                Validator.isRequired('#password_confirmation'),
+                Validator.isConfirmed('#password_confirmation', function () {
+                    return document.querySelector('#form-1 #password').value;
+                }, 'Mật khẩu nhập lại không chính xác')
+            ],
+            onSubmit: function (data) {
+                // Call API
+                console.log(data);
+            }
+        });
+
+
+        Validator({
+            form: '#form-login',
+            formGroupSelector: '.field-control ',
+            errorSelector: '.form-message',
+            rules: [
+                Validator.isEmail('#email'),
+                Validator.minLength('#password', 6),
+            ],
+            onSubmit: function (data) {
+                // Call API
+                console.log(data);
+            }
+        });
+    });
+
+</script>
+
+</html>
